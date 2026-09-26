@@ -340,6 +340,25 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
 .service-card h3 { font-size: 1.15rem; margin-bottom: 10px; }
 .service-card p { font-size: 0.95rem; margin-bottom: 0; }
 
+/* ---------- WhatsApp Business ---------- */
+.wa-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+.wa-copy h2 { font-size: clamp(1.8rem, 3.2vw, 2.5rem); }
+.wa-list { list-style: none; padding: 0; margin: 32px 0; display: grid; gap: 22px; }
+.wa-list li { display: flex; gap: 16px; align-items: flex-start; }
+.wa-list .service-icon { flex-shrink: 0; margin-bottom: 0; }
+.wa-list h3 { font-size: 1.05rem; margin-bottom: 4px; }
+.wa-list p { font-size: 0.95rem; margin-bottom: 0; }
+.wa-note { font-size: 0.95rem; }
+.wa-note strong { color: var(--ink); }
+.wa-copy .btn { margin-top: 8px; }
+.wa-media { display: flex; justify-content: center; }
+.wa-media img { width: 100%; max-width: 420px; height: auto; display: block; }
+
 /* ---------- Approach ---------- */
 .approach-grid {
   display: grid;
@@ -505,6 +524,8 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   .service-grid { grid-template-columns: repeat(2, 1fr); }
   .approach-grid { grid-template-columns: repeat(2, 1fr); row-gap: 40px; }
   .about-grid { grid-template-columns: 1fr; }
+  .wa-grid { grid-template-columns: 1fr; gap: 40px; }
+  .wa-media { order: -1; }
   .about-media { max-width: 320px; }
   .contact-grid { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr 1fr; }
