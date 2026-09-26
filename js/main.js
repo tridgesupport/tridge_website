@@ -48,10 +48,10 @@ revealEls.forEach((el, i) => {
 // Footer year
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Contact form — opens a pre-filled email to support@tridge.site
+// Contact form — opens a pre-filled email to support@tridge.co.in
 const contactForm = document.getElementById('contactForm');
 const formNote = document.getElementById('formNote');
-const CONTACT_EMAIL = 'support@tridge.site';
+const CONTACT_EMAIL = 'support@tridge.co.in';
 
 if (contactForm) {
   contactForm.addEventListener('submit', (e) => {
@@ -67,6 +67,6 @@ if (contactForm) {
     window.location.href =
       `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-    formNote.textContent = "Opening your email app to send this to us — if nothing opens, email us directly at support@tridge.site.";
+    formNote.textContent = "Opening your email app to send this to us — if nothing opens, email us directly at support@tridge.co.in.";
   });
 }
