@@ -355,7 +355,6 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
 .wa-list p { font-size: 0.95rem; margin-bottom: 0; }
 .wa-note { font-size: 0.95rem; }
 .wa-note strong { color: var(--ink); }
-.wa-copy .btn { margin-top: 8px; }
 .wa-media { display: flex; justify-content: center; }
 .wa-media img { width: 100%; max-width: 420px; height: auto; display: block; }
 
